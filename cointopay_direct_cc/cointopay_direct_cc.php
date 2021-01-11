@@ -171,7 +171,7 @@ class Cointopay_Direct_Cc extends PaymentModule
             || !$this->registerHook('paymentReturn')
             || !$this->registerHook('paymentOptions')
             || !$this->registerHook('orderConfirmation')
-			|| !$this->registerHook('DisplayAdminOrder')   
+			|| !$this->registerHook('DisplayAdminOrderLeft')
         ) {
             return false;
         }
